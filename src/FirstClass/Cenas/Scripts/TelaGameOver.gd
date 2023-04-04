@@ -90,7 +90,7 @@ func _on_Creditos_pressed():
 		$SomConfirmar.play()
 		yield(get_tree().create_timer(0.25), "timeout")
 		MusicController.play_menu_music()
-		get_tree().change_scene("res://Cenas/Menu.tscn")
+		get_tree().change_scene("res://Cenas/Creditos.tscn")
 
 #funções de efeito sonoro
 func _on_restart_mouse_entered():
